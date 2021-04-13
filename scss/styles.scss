@@ -3,18 +3,77 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'ABeeZee', sans-serif;
 }
 
 .header{
-    background-image: url('../img/landing-waves.png');
+    background-image: url('../img/landingWaves.png');
     width: 100%;
-    height: 290px;
+    height: 200px;
 
     .header-test{
         display: flex;
-        top: 100px;
         justify-content: space-between;
-        padding-top: 100px;
+        padding-top: 80px;
+    }
+
+    .header-right a{
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        margin-right: 20px;
     }
     
+}
+
+.main-section{
+    display: flex;
+    align-items: center;
+
+    .main-right{
+        margin-left: auto;
+
+        img{
+            width: 80%;
+        }
+    }
+
+    .introduction{
+        margin-left: 100px;
+        font-weight: 100;
+
+        .intro-title{
+            text-transform: uppercase;
+            color: $purple;
+            font-size: 1rem;
+            padding-bottom: 30px;
+        }
+
+        .about-me{
+            font-size: 3rem;
+
+        }
+
+        button{
+            width: 20%;
+            height: 30px;
+            border-radius: 4px;
+            border: none;
+            background-color: $purple;
+            color: white;
+            font-size: 0.8rem;
+            margin-top: 10px;
+        }
+    }
+}
+
+.scrolldown{
+    display: flex;
+    margin-left: 100px;
+
+    p{
+        color: $purple;
+        text-transform: uppercase;
+    }
 }
