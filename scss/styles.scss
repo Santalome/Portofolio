@@ -157,3 +157,61 @@
     }
 
 }
+
+.contact{
+
+    h2{
+        color: $purple;
+        font-size: 3rem;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+    .contactme{
+        display: flex;
+        margin-top: 50px;
+
+        img{
+            margin-left: 200px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            margin-left: 200px;
+            margin-right: 400px;
+
+            label{
+            color: $purple;
+            }
+
+            input{
+                height: 40px;
+            }
+
+            textarea{
+                height: 80px;
+                padding-top: 8px;
+            }
+
+            #fname, textarea{
+                width: 50vh;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding-left: 10px;
+                border-radius: 10px;
+                border: 2px solid $purple;
+            }
+
+            .submit{
+                background-color: $purple;
+                border-radius: 10px;
+                border: 2px solid $purple;
+                color: white;
+                margin-top: 10px;
+            }
+        }
+        
+    
+    }
+}

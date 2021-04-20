@@ -129,3 +129,48 @@
 .projects-section .projects .project a {
   text-decoration: none;
 }
+
+.contact h2 {
+  color: #7e57c2;
+  font-size: 3rem;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.contact .contactme {
+  display: flex;
+  margin-top: 50px;
+}
+.contact .contactme img {
+  margin-left: 200px;
+}
+.contact .contactme form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 400px;
+}
+.contact .contactme form label {
+  color: #7e57c2;
+}
+.contact .contactme form input {
+  height: 40px;
+}
+.contact .contactme form textarea {
+  height: 80px;
+  padding-top: 8px;
+}
+.contact .contactme form #fname, .contact .contactme form textarea {
+  width: 50vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 2px solid #7e57c2;
+}
+.contact .contactme form .submit {
+  background-color: #7e57c2;
+  border-radius: 10px;
+  border: 2px solid #7e57c2;
+  color: white;
+  margin-top: 10px;
+}
