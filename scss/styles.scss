@@ -173,13 +173,13 @@
 
         img{
             margin-left: 200px;
+            width: 45vh;
         }
 
         form{
             display: flex;
             flex-direction: column;
             margin-left: 200px;
-            margin-right: 400px;
 
             label{
             color: $purple;
