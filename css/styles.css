@@ -147,7 +147,8 @@
 .contact .contactme form {
   display: flex;
   flex-direction: column;
-  margin-left: 200px;
+  margin-left: auto;
+  margin-right: 200px;
 }
 .contact .contactme form label {
   color: #7e57c2;
