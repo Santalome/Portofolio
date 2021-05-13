@@ -131,8 +131,11 @@
     .projects{
 
         display: flex;
+        flex-wrap: wrap;
 
         .project{
+            display: flex;
+            flex-direction: column;
             border: 2px solid $purple;
             margin-top: 20px;
             margin-right: 20px;
@@ -152,6 +155,7 @@
 
             a{
                 text-decoration: none;
+                margin-top: auto;
             }
         }
     }
@@ -221,6 +225,14 @@
         
     
     }
+}
+
+.footer{
+    text-align: center;
+    margin-top: 80px;
+    background-color: $light-purple;
+    height: 70px;
+    line-height: 70px;
 }
 
 @media (max-width: 1082px){
@@ -301,5 +313,75 @@
                 margin-right: 150px;
             }
         }
+    }
+}
+
+@media (max-width: 320px){
+
+    img{
+        display: none;
+    }
+
+    .header{
+
+        .header-test{
+
+            .header-left{
+                display: none;
+            }
+
+            .header-right{
+                margin-left: 30px;
+                
+                a{
+                    margin-right: 8px;
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+
+    .landing-section{
+        display: flex;
+        flex-direction: column;
+
+        .introduction{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 300px;
+            margin: 0px 10px 0px 10px;
+            .intro-title{
+                font-size: 1rem;
+            }
+
+            .description{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .scrolldown{
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    .about-me{
+        
+        .main-about{
+            
+            .about-text{
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .projects-section{
+        margin-left: 0px;
+    }
+
+    .contact{
+        h2{margin-left: 0px;}
     }
 }
