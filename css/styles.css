@@ -130,6 +130,9 @@
   text-decoration: none;
 }
 
+.contact {
+  margin-bottom: 40px;
+}
 .contact h2 {
   color: #7e57c2;
   font-size: 3rem;
@@ -174,4 +177,50 @@
   border: 2px solid #7e57c2;
   color: white;
   margin-top: 10px;
+}
+.contact .contactme form button {
+  height: 4vh;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1082px) {
+  .header-test {
+    font-size: 0.8rem;
+  }
+
+  .landing-section .introduction .description {
+    font-size: 2.2rem;
+  }
+  .landing-section .introduction button {
+    font-size: 0.8rem;
+  }
+  .landing-section .main-right img {
+    width: 54vh;
+  }
+
+  .scrolldown p {
+    font-size: 0.9rem;
+  }
+  .scrolldown p img {
+    width: 2vh;
+  }
+
+  .about-me .main-about .about-text .about-title {
+    font-size: 1.8rem;
+  }
+  .about-me .main-about .about-text .about-p {
+    font-size: 1rem;
+  }
+  .about-me .main-about .aboutme-img {
+    width: 54vh;
+    height: 40vh;
+  }
+
+  .projects-section .project p {
+    font-size: 0.9rem;
+  }
+
+  .contact .contactme form {
+    margin-right: 150px;
+  }
 }
