@@ -260,7 +260,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
+    height: 280px;
     margin: 0px 10px 0px 10px;
   }
   .landing-section .introduction .intro-title {
@@ -271,22 +271,34 @@
   }
 
   .scrolldown {
-    margin-left: 0px;
     margin-bottom: 30px;
     margin-left: 10px;
   }
 
-  .about-me {
-    display: flex;
+  .about-me .main-about {
+    border-radius: 2px;
   }
   .about-me .main-about .about-text {
-    margin-left: 0px;
+    margin: 0px 10px 0px 10px;
   }
 
   .projects-section {
-    margin-left: 0px;
+    margin: 0px 10px 0px 10px;
+  }
+  .projects-section .projects .project {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .contact {
+    margin: 0px 10px 0px 10px;
   }
   .contact h2 {
-    margin-left: 0px;
+    margin: 0px;
+  }
+  .contact .contactme form #fname, .contact .contactme form #subject {
+    width: 285px;
+  }
+  .contact .contactme form button {
+    height: 30px;
   }
 }
