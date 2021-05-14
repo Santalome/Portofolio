@@ -131,7 +131,6 @@
     .projects{
 
         display: flex;
-        flex-wrap: wrap;
 
         .project{
             display: flex;
@@ -381,7 +380,8 @@
         margin: 0px 10px 0px 10px;
 
         .projects{
-
+            
+                flex-wrap: wrap;
             .project{
                 margin: 20px 0px 0px 0px ;
             }
